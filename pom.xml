@@ -20,9 +20,16 @@
     <downloadSources>true</downloadSources>
     <downloadJavadocs>true</downloadJavadocs>
     <java.version>1.6</java.version>
-    <project.scm.id>github</project.scm.id>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id> 
+      <name>GitHub Ekahau Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/Ekahau/proxy-vole</url>
+    </repository>
+  </distributionManagement>
+    
   <scm>
     <url>https://github.com/Ekahau/proxy-vole</url>
     <connection>scm:git://github.com/Ekahau/proxy-vole.git</connection>
