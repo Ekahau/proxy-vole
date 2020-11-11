@@ -10,6 +10,6 @@ jobs:
         with:
           java-version: 1.8
       - name: Release package
-        run: mvn -B clean release
+        run: mvn -B clean release:prepare release:perform
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
