@@ -20,6 +20,7 @@
     <downloadSources>true</downloadSources>
     <downloadJavadocs>true</downloadJavadocs>
     <java.version>1.6</java.version>
+    <project.scm.id>github</project.scm.id>
   </properties>
 
   <scm>
