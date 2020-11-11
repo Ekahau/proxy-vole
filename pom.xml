@@ -10,7 +10,7 @@
 
   <groupId>com.github.markusbernhardt</groupId>
   <artifactId>proxy-vole</artifactId>
-  <version>1.0.6-SNAPSHOT</version>
+  <version>1.0.5.1-SNAPSHOT</version>
 
   <name>Proxy Vole</name>
   <description>Proxy Vole is a Java library to auto detect the platform network proxy settings.</description>
@@ -24,9 +24,9 @@
   </properties>
 
   <scm>
-    <url>https://github.com/MarkusBernhardt/proxy-vole</url>
-    <connection>scm:git://github.com/MarkusBernhardt/proxy-vole.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/MarkusBernhardt/proxy-vole.git</developerConnection>
+    <url>https://github.com/Ekahau/proxy-vole</url>
+    <connection>scm:git://github.com/Ekahau/proxy-vole.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Ekahau/proxy-vole.git</developerConnection>
   </scm>
 
   <licenses>
